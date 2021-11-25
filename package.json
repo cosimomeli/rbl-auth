@@ -1,0 +1,22 @@
+
+{  
+  "name": "rbl-auth",
+  "version": "1.1.0",
+  "description": "External Auth server for Reputation Block List integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "auth",
+    "rbl",
+    "dns"
+  ],
+  "author": "Cosimo Meli",
+  "license": "MIT",
+  "dependencies": {
+      "lru-cache": "^6.0.0"
+  }
+}
